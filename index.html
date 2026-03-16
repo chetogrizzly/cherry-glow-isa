@@ -1,0 +1,166 @@
+# cherry-glow-isa
+Sitio web oficial de Cherry Glow by Isa – maquillaje de calidad y venta de productos.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cherry Glow by Isa</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#fff7f9;
+color:#333;
+}
+
+header{
+background:#ff4f81;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:18px;
+}
+
+button{
+background:#ff2e63;
+border:none;
+color:white;
+padding:15px 25px;
+font-size:16px;
+border-radius:8px;
+cursor:pointer;
+margin:10px;
+}
+
+section{
+padding:60px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.service{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.shop{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.product{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Cherry Glow by Isa</h1>
+
+<p>Maquillaje profesional para eventos, XV años y novias</p>
+
+<button onclick="document.getElementById('services').scrollIntoView()">
+Ver servicios
+</button>
+
+<button onclick="document.getElementById('shop').scrollIntoView()">
+Comprar productos
+</button>
+
+</header>
+
+<section>
+
+<h2>Portafolio</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9">
+
+<img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8">
+
+<img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330">
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2>Servicios</h2>
+
+<div class="services">
+
+<div class="service">
+<h3>Maquillaje social</h3>
+<p>Perfecto para eventos, fiestas o sesiones de fotos.</p>
+<p><strong>$800 MXN</strong></p>
+</div>
+
+<div class="service">
+<h3>
